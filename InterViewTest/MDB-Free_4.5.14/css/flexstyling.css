@@ -1,8 +1,33 @@
 ﻿.flex-container {
     display: flex;
-    flex-flow: row;
-    justify-content: space-around;
+    flex-flow: column-reverse;
+    /*align-items: stretch;
+    justify-content: space-between;*/
+    background-color: blueviolet;
+    justify-content: stretch;
+    align-items: stretch;
+    /*justify-content: space-around;*/
     /*flex-wrap: wrap;
     flex-flow: column-reverse;
     flex-flow: row-reverse;*/
+}
+
+    .flex-container div h2:hover {
+        background: #fff;
+    }
+
+.flex-item-1 {
+    align-self: center;
+}
+
+.flex-item-2 {
+    align-self: center;
+}
+
+.flex-item-3 {
+    align-self: center;
+}
+
+.flex-item-4 {
+    align-self: center;
 }
