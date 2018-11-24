@@ -1,33 +1,35 @@
 ﻿.flex-container {
     display: flex;
-    flex-flow: column-reverse;
+    flex-flow: row;
     /*align-items: stretch;
     justify-content: space-between;*/
     background-color: blueviolet;
-    justify-content: stretch;
-    align-items: stretch;
+    /*justify-content: stretch;
+    align-items: stretch;*/
     /*justify-content: space-around;*/
     /*flex-wrap: wrap;
     flex-flow: column-reverse;
     flex-flow: row-reverse;*/
+    flex-wrap: wrap;
 }
 
     .flex-container div h2:hover {
         background: #fff;
     }
 
+.flex-item {
+    flex-grow: 1;
+    width: 300px;
+    flex-shrink: 0;
+    flex-basis: 300px;
+    flex: 1 1 0;
+    /* flex-basis and flex-shrink and flex grow they are all in one property*/
+}
+
 .flex-item-1 {
-    align-self: center;
+    background: maroon;
 }
 
 .flex-item-2 {
-    align-self: center;
-}
-
-.flex-item-3 {
-    align-self: center;
-}
-
-.flex-item-4 {
-    align-self: center;
+    background: aqua;
 }
