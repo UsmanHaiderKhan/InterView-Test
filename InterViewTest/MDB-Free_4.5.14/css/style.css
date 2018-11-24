@@ -137,7 +137,7 @@
             }
 
                 .advance-nav ul li a .icon {
-                    flex-basis: 40px;
+                    flex-basis: 100px;
                 }
 
                 .advance-nav ul li a .text {
@@ -151,4 +151,8 @@
                         font-weight: lighter;
                         font-style: italic;
                     }
+}
+
+.advance-nav ul li {
+    list-style-type: none;
 }
