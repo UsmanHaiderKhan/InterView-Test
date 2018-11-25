@@ -137,7 +137,7 @@
             }
 
                 .advance-nav ul li a .icon {
-                    flex-basis: 100px;
+                    flex-basis: 190px;
                 }
 
                 .advance-nav ul li a .text {
@@ -145,12 +145,12 @@
                     font-weight: bold;
                 }
 
-                    .advance-nav ul li a .text span {
-                        display: block;
-                        font-size: 15px;
-                        font-weight: lighter;
-                        font-style: italic;
-                    }
+                .advance-nav ul li a .text {
+                    display: block;
+                    font-size: 15px;
+                    font-weight: lighter;
+                    font-style: italic;
+                }
 }
 
 .advance-nav ul li {
